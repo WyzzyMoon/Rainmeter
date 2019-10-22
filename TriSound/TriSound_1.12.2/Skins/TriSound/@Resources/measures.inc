@@ -220,7 +220,7 @@ BandIdx=29
 
 [MeasureFlip]
 Measure=Calc
-Formula=#SkinFlip#
+Formula=#SkinFlipY#
 IfCondition=(MeasureFlip = 1)
 IfTrueAction=[!SetOption MeterTri1 ImageFlip Vertical][!SetOption MeterTri0 ImageFlip Vertical]
 
