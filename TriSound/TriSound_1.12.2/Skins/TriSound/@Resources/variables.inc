@@ -5,12 +5,12 @@
 
 
 ;bar positions 
-LXPos=((#Size#*12)-(#BarSpace#*4))+(#SkinFlip#*((#Size#/15)*47))
-LYPos=((#Size#*23.2)-#BarLength#)+(#SkinFlip#*((#Size#/15)*228))
-RXPos=(((#Size#/5)*5)-(#BarSpace#*5))-(#SkinFlip#*((#Size#/15)*47))
-RYPos=(((#Size#/10)*-166.3)-#BarLength#)+(#SkinFlip#*((#Size#/15)*228))
+LXPos=((#Size#*12)-(#BarSpace#*4))+(#SkinFlipY#*((#Size#/15)*47))
+LYPos=((#Size#*23.2)-#BarLength#)+(#SkinFlipY#*((#Size#/15)*228))
+RXPos=(((#Size#/5)*5)-(#BarSpace#*5))-(#SkinFlipY#*((#Size#/15)*47))
+RYPos=(((#Size#/10)*-166.3)-#BarLength#)+(#SkinFlipY#*((#Size#/15)*228))
 MXPos=((#I1Xpos#+(#ISize#/2))-(((9*#BarSpace#)+(10*#Size#))/2))
-MYPos=#I3Ypos#-(#SkinFlip#*((#Size#/15)*306))
+MYPos=#I3Ypos#-(#SkinFlipY#*((#Size#/15)*306))
 
 
 ;Triangle settings 
@@ -27,7 +27,7 @@ Width=#Size#
 Height=(#Size#*10)+#BarLength#
 
 ;Flip Setting
-CenterFlip=2*#SkinFlip#
+CenterFlip=2*#SkinFlipY#
 
 ;Diagonal settings 
 Angle0=(PI/3)
